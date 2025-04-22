@@ -12,5 +12,12 @@
   "context": {
     "market": "eu"
   },
-  "sections": {}
+  "sections": {
+    "header": {
+      "settings": {
+        "sidebar_menu": "footer"
+      },
+      "blocks": {}
+    }
+  }
 }

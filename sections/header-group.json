@@ -14,21 +14,21 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message": {
+        "message_GpmtPD": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "🚚 Livraison GRATUITE et Express à partir de 75€ d'achat en France 📦",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message_GpmtPD"
       ],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
         "background_gradient": "",

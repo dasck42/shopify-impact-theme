@@ -140,7 +140,7 @@
     "scrolling-text": {
       "type": "scrolling-text",
       "custom_css": [
-        ".section--tight{padding-top: 5px; padding-bottom: 5px;}"
+        ".section--tight {padding-top: 5px; padding-bottom: 5px;}"
       ],
       "settings": {
         "full_width": true,
@@ -149,9 +149,9 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 3,
-        "background": "",
+        "background": "#16120b",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#ffffff",
         "text_gradient": ""
       }
     },

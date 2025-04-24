@@ -437,6 +437,94 @@
         "heading_gradient": ""
       }
     },
+    "impact_text_LaD8Tb": {
+      "type": "impact-text",
+      "blocks": {
+        "item_4hf4bQ": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "Ce que pensent nos clients ?",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_4hf4bQ"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "press_DpwjWz": {
+      "type": "press",
+      "blocks": {
+        "quote_mKqD3B": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Mélissa Granulant",
+            "content": "Excellent Démaquillant !! Ne laisse pas la peau grasse et désincruste parfaitement le maquillage (même le mascara)",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_i9rLzC": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Secile N.",
+            "content": "Du top au top! Enlève les pores dilatés, après mes 3 semaines d'utilisation, je sens une fraicheur sur ma peau après le rinçage et moins de points noirs sur mon nez",
+            "show_rating": true,
+            "rating": 3
+          }
+        },
+        "quote_NKLBxh": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Julie L",
+            "content": "Ma peau est toute lisse, et moins d’imperfections. Je valide !!!",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_mKqD3B",
+        "quote_i9rLzC",
+        "quote_NKLBxh"
+      ],
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "impact-text": {
       "type": "impact-text",
       "blocks": {
@@ -1069,6 +1157,8 @@
     "featured-collection",
     "impact_text_ieFidg",
     "images_with_text_scrolling_MbNECV",
+    "impact_text_LaD8Tb",
+    "press_DpwjWz",
     "impact-text",
     "image-with-text-overlay",
     "media-grid",

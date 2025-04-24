@@ -202,6 +202,7 @@
         "product_Xpg7nE",
         "product_McXqbB"
       ],
+      "disabled": true,
       "name": "Shop the look",
       "settings": {
         "full_width": true,
@@ -271,6 +272,7 @@
         "collection-2",
         "collection-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
@@ -291,19 +293,19 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "best-sellers",
         "products": [],
-        "full_width": true,
+        "full_width": false,
         "stack_products": false,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "products_count": 6,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Featured collection",
+        "title": "Nouveautés",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -311,6 +313,92 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "images_with_text_scrolling_MbNECV": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_PiYqXV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre-min.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "1. Baume/Huile Nettoyante",
+            "content": "<p>La première étape consiste à utiliser un nettoyant à base d'huile ou un baume nettoyant. Ces produits sont conçus pour dissoudre le maquillage, le SPF, l'excès de sébum et les impuretés à base d'huile présents sur la peau.<br/><br/><br/><br/></p>"
+          }
+        },
+        "item_RCYkFt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_1_-min.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "2. Nettoyant",
+            "content": "<p>La deuxième étape consiste à nettoyer la peau en profondeur avec un nettoyant à base d'eau, comme une mousse, un gel ou une lotion nettoyante. Cela élimine les résidus restants, nettoie les pores en profondeur et prépare la peau pour les étapes suivantes de la routine.<br/><br/></p>"
+          }
+        },
+        "item_UxMdyg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_3_-min.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "3. Toner",
+            "content": "<p>Le toner est conçu pour rééquilibrer le pH de la peau. De plus, il élimine les résidus de maquillage, de saleté ou de nettoyant restants après le lavage du visage. Il peut également hydrater, apaiser et purifier la peau.<br/><br/></p>"
+          }
+        },
+        "item_G7WWna": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/96512852_1538788506287666_570960503627519895_n.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "4. Sérum",
+            "content": "<p>Un sérum est un soin hautement concentré, conçu pour cibler des problèmes spécifiques et offrir des bienfaits ciblés. Sa composition légère renferme des ingrédients actifs comme des antioxydants, de l'acide hyaluronique, des vitamines ou des extraits végétaux.<br/><br/></p>"
+          }
+        },
+        "item_Xaxia4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/142386622_2703520616627223_1417995272680503483_n.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "5. Crème",
+            "content": "<p>Une crème offre une hydratation et une protection cutanée. Elles sont formulées pour fournir une hydratation en scellant l'humidité dans la peau et en créant une barrière protectrice contre les agressions extérieures.<br/><br/></p>"
+          }
+        },
+        "item_3NbN43": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/83183010_135060944885242_46201663610789329_n.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "6. Protection Solaire",
+            "content": "<p>La protection solaire est essentielle pour préserver la santé de la peau et prévenir les dommages causés par les rayons ultraviolets (UV) du soleil. Elle permet d'éviter le vieillissement prématuré de la peau.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_PiYqXV",
+        "item_RCYkFt",
+        "item_UxMdyg",
+        "item_G7WWna",
+        "item_Xaxia4",
+        "item_3NbN43"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "impact-text": {
@@ -332,6 +420,7 @@
       "block_order": [
         "1664424181b38582d5-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -376,6 +465,7 @@
         "1664424230c4756b0e-1",
         "1664424230c4756b0e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -482,6 +572,7 @@
         "item-3",
         "29246d34-c6e0-4373-84f6-b15e57736a00"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -493,6 +584,7 @@
     },
     "before-after-image": {
       "type": "before-after-image",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",
@@ -541,6 +633,7 @@
         "16644243327ba53d2a-0",
         "16644243327ba53d2a-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -598,6 +691,7 @@
         "1664424434f5b7d0e0-1",
         "1664424434f5b7d0e0-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "title": "",
@@ -650,6 +744,7 @@
         "1664424486a2b084ab-0",
         "1664424486a2b084ab-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "scattered",
@@ -738,6 +833,7 @@
         "quantity-selector",
         "buy-buttons"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "product": "",
@@ -846,6 +942,7 @@
         "16644246508f6fa13a-1",
         "16644246508f6fa13a-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "Compare",
@@ -902,6 +999,7 @@
         "166442457738b23caf-1",
         "166442457738b23caf-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",
@@ -933,6 +1031,7 @@
     "shop_the_look_M7pVhH",
     "collection-list",
     "featured-collection",
+    "images_with_text_scrolling_MbNECV",
     "impact-text",
     "image-with-text-overlay",
     "media-grid",

@@ -15,9 +15,9 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Copie_de_Banner_before_after_1500x_b0cb0dd6-8d71-447d-89e9-5465902ffb60.png",
-            "mobile_image": "shopify://shop_images/Design_sans_titre.svg",
-            "content_max_width": 780,
+            "image": "shopify://shop_images/the_best_part_of_your_morning_routine_your_future_self_thanks_you..png",
+            "mobile_image": "shopify://shop_images/the_best_part_of_your_morning_routine_your_future_self_thanks_you._1.png",
+            "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -29,7 +29,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 9,
+            "overlay_opacity": 22,
             "background": "",
             "background_gradient": ""
           }
@@ -158,10 +158,7 @@
     "revealed_image_on_scroll_rzYKxX": {
       "type": "revealed-image-on-scroll",
       "disabled": true,
-      "name": "Revealed image on scroll",
       "settings": {
-        "image": "shopify://shop_images/ANTI-RIDE.png",
-        "mobile_image": "shopify://shop_images/ANTI-RIDE.png",
         "subheading": "",
         "title": "Reveal text on scroll",
         "background": "",
@@ -203,7 +200,6 @@
         "product_McXqbB"
       ],
       "disabled": true,
-      "name": "Shop the look",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -292,6 +288,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "best-sellers",
         "products": [],
@@ -334,7 +331,7 @@
       "block_order": [
         "item_pqzphK"
       ],
-      "name": "Impact text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -357,7 +354,6 @@
         "item_PiYqXV": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre-min.png",
             "icon": "none",
             "icon_width": 48,
             "title": "1. Baume/Huile Nettoyante",
@@ -367,7 +363,6 @@
         "item_RCYkFt": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_1_-min.png",
             "icon": "none",
             "icon_width": 48,
             "title": "2. Nettoyant",
@@ -377,7 +372,6 @@
         "item_UxMdyg": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_3_-min.png",
             "icon": "none",
             "icon_width": 48,
             "title": "3. Toner",
@@ -387,7 +381,6 @@
         "item_G7WWna": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/96512852_1538788506287666_570960503627519895_n.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "4. Sérum",
@@ -397,7 +390,6 @@
         "item_Xaxia4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/142386622_2703520616627223_1417995272680503483_n.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "5. Crème",
@@ -407,7 +399,6 @@
         "item_3NbN43": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/83183010_135060944885242_46201663610789329_n.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "6. Protection Solaire",
@@ -423,7 +414,7 @@
         "item_Xaxia4",
         "item_3NbN43"
       ],
-      "name": "Images and text scrolling",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -456,7 +447,7 @@
       "block_order": [
         "item_4hf4bQ"
       ],
-      "name": "Impact text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -512,7 +503,7 @@
         "quote_i9rLzC",
         "quote_NKLBxh"
       ],
-      "name": "Press",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -1116,12 +1107,20 @@
             "title": "Any question?",
             "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
           }
+        },
+        "item_w9pLBn": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_w9pLBn"
       ],
       "disabled": true,
       "settings": {
@@ -1144,6 +1143,58 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
+      }
+    },
+    "shop_the_look_Px7wAq": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_DNkUMb": {
+          "type": "product",
+          "settings": {
+            "product": "matcha",
+            "horizontal_position": 45,
+            "vertical_position": 12
+          }
+        },
+        "product_QAf7Ew": {
+          "type": "product",
+          "settings": {
+            "product": "fouet-matcha",
+            "horizontal_position": 17,
+            "vertical_position": 35
+          }
+        },
+        "product_hgTX4k": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 33,
+            "vertical_position": 73
+          }
+        }
+      },
+      "block_order": [
+        "product_DNkUMb",
+        "product_QAf7Ew",
+        "product_hgTX4k"
+      ],
+      "name": "Shop the look",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "image": "shopify://shop_images/choisir-un-bon-matcha.jpg",
+        "title": "Shop the look",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
       }
     }
   },
@@ -1168,6 +1219,7 @@
     "multiple-images-with-text",
     "featured-product",
     "feature-chart",
-    "faq"
+    "faq",
+    "shop_the_look_Px7wAq"
   ]
 }

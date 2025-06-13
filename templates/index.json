@@ -15,8 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/the_best_part_of_your_morning_routine_your_future_self_thanks_you..png",
-            "mobile_image": "shopify://shop_images/Capture_d_ecran_2025-05-29_153243.png",
+            "image": "shopify://shop_images/Lucid_Realism_Create_a_vibrant_banner_featuring_four_diverse_f_0.jpg",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -149,10 +148,111 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 3,
-        "background": "#16120b",
+        "background": "#ffb74a",
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
+      }
+    },
+    "featured_product_rpCXcB": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_aMKJqc": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_kn4GT7": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_DgbFmd": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_kzTayx": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_dUp8bL": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_RGUMVh": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_fLBkUD": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VhLBFe": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_J3eDMU": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_GVhrfL": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_9Uaex6": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_aMKJqc",
+        "title_kn4GT7",
+        "badges_DgbFmd",
+        "price_kzTayx",
+        "rating_dUp8bL",
+        "separator_RGUMVh",
+        "description_fLBkUD",
+        "variant_picker_VhLBFe",
+        "quantity_selector_J3eDMU",
+        "buy_buttons_GVhrfL",
+        "pickup_availability_9Uaex6"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "8pcs-natural-plant-face-mask-beauty-skincare-facial-masks-moisturizing-firming-hydrating-facial-mask-face-care-korean-cosmetics",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "revealed_image_on_scroll_rzYKxX": {
@@ -1178,11 +1278,10 @@
         "product_QAf7Ew",
         "product_hgTX4k"
       ],
-      "name": "Shop the look",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify://shop_images/choisir-un-bon-matcha.jpg",
         "title": "Shop the look",
         "content": "",
         "background": "",
@@ -1194,7 +1293,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
+        "background_dots": "#ffffff"
       }
     }
   },
@@ -1202,6 +1301,7 @@
     "slideshow",
     "image-link-blocks",
     "scrolling-text",
+    "featured_product_rpCXcB",
     "revealed_image_on_scroll_rzYKxX",
     "shop_the_look_M7pVhH",
     "collection-list",

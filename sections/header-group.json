@@ -30,7 +30,7 @@
         "text_size": "text-xs",
         "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#ffb74a",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -40,7 +40,6 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/Design_sans_titre.png",
         "logo_max_width": 205,
         "logo_mobile_max_width": 70,
         "menu": "main-menu",
